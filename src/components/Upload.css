@@ -1,0 +1,60 @@
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload {
+    min-height: 320px;
+    min-width: 550px;
+    max-width: 80%;
+    background-color: rgb(148, 198, 242);
+    border-radius: 18px;
+    box-shadow: 12px gainsboro;
+    margin-top: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.choose {
+    width: 220px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: royalblue;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    box-shadow: royalblue;
+    margin: 20px;
+}
+
+.buttons button {
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    margin: 0 20px 0 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+#cancel {
+    background-color: whitesmoke;
+    color: black;
+}
+
+#upl {
+    background-color: rgb(80, 206, 133);
+}
+
+.buttons button:focus {
+    outline: none;
+}

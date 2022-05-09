@@ -1,0 +1,17 @@
+.nav {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(148, 198, 242);
+    box-shadow: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+    width: 500px;
+    text-align: center;
+}
